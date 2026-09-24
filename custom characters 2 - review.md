@@ -95,20 +95,22 @@ players. Both at once makes Himejima net-negative for the village, and with Akaz
 (Wolf-Hound) and Nezuko (Wild Child) already muddying the water you have plenty of
 "is that a wolf?" in the deck.
 
-**Cursed (Custom 2 version)** — *villager who turns wolf when attacked.*
-Two problems, both fixable:
-- **Name collision.** Custom 1 has a different card also called Cursed ("if devoured,
-  wolves can't kill next night"). Retire one.
-- **Overlap with Muzan** (Cursed Wolf-Father), whose entire once-per-game power is
-  this exact conversion.
-The Pact actually resolves the rest for you, and elegantly. p. 10 and p. 15 both say
-infection is stopped by *nothing*: "The Witch's healing potion does not remove the
-Cursed Wolf-Father's infection" and "the Defender does not protect against... the
-infection." So:
-- Tamayo (Witch) heals the Cursed → **the body is saved, the curse still takes.**
-- Tanjiro (Defender) protects the Cursed → **death prevented, conversion still happens.**
-- If Muzan bites the Cursed, the conversion happens anyway and **Muzan keeps his
+**Diseased** *(renamed from "Cursed")* — *villager who turns wolf when attacked.*
+The rename clears the collision with Custom 1's Cursed, so both can now sit in the deck
+together. Remaining note: it overlaps with **Muzan** (Cursed Wolf-Father), whose entire
+once-per-game power is this exact conversion — that's fine, they just do it by different
+routes (Muzan chooses, the Diseased is automatic).
+
+The Pact resolves the rest for you, and elegantly. Pages 10 and 15 both say infection is
+stopped by *nothing*: "The Witch's healing potion does not remove the Cursed Wolf-Father's
+infection" and "the Defender does not protect against... the infection." So:
+- Tamayo (Witch) heals the Diseased → **the body is saved, the disease still takes.**
+- Tanjiro (Defender) protects the Diseased → **death prevented, conversion still happens.**
+- If Muzan bites the Diseased, the conversion happens anyway and **Muzan keeps his
   unspent bite** (tell him nothing).
+- Keep both Cursed cards straight at the table: **Diseased** = turns wolf when bitten
+  (Custom 2). **Cursed** = if devoured, the wolves get no kill the following night
+  (Custom 1). They are opposites, which is a nice pair to run together.
 
 **Tough Guy** — *survive an extra day if attacked at night.*
 Near-duplicate of Kagaya (Elder). Distinguish them like this and both can coexist:
@@ -187,22 +189,29 @@ team that killed her is *the entire village* — so a dead, untouchable player t
 murders a villager every night for the rest of the game, and nothing in the game can
 stop her. Two fixes, take either:
 - **(a)** She only triggers if killed by **werewolves** — then she kills one wolf per
-  night, a dead man's Chupacabra. Clean and thematic.
+  night, a dead man's wolf-hunt. Clean and thematic.
 - **(b)** If lynched, she may only kill someone who **voted for her.** Self-limiting and
   the better story.
 Either way, cap her at **two kills total**, then she rests.
 
-**Chupacabra** — *kill a player each night if they're a wolf; if all wolves are dead,
-kill a villager each night.*
-**This card has no stated win condition**, which makes it unplayable as written — and
-that second clause means the village can never actually win while the Chupacabra lives,
-turning a village victory into an endless grind. Decide which card you want:
-- **Village-aligned:** drop the "kills a villager" clause. Wins with the village, but
-  only if alive at the end. A vigilante wolf-hunter. Recommended.
-- **True Loner:** keep the clause and state it outright — wins alone as the last player
-  standing. Then it's a sixth Loner and belongs only in a very large game.
-Also rule the overlap with Tamayo's poison and the Barber's razor — three separate
-"kill outside the vote" powers in one village is a lot.
+**Chupacabra** — *each night name a player; they die if they're a werewolf. Once all
+wolves are dead, kill a player each night.* **Wins by being the last player alive.**
+With the win condition settled, this card is now coherent — and it reads completely
+differently. The Chupacabra is **not** a village vigilante; they are a **Loner** who
+happens to be hunting the same prey as the village for the first half of the game, then
+turns on them. Everything follows from that:
+- The "kills a villager each night" clause is no longer a bug — it is their **win path**.
+- The village cannot win while the Chupacabra lives, and **must** eventually lynch them.
+- They count against your Loner cap (see saturation, below).
+- A Chupacabra guess that hits a real wolf kills it **outright** — no Defender save, no
+  Elder second life, no Witch heal. Rule it as a clean kill, or it becomes unusable.
+- They may target the same player on consecutive nights.
+- Overlap to watch: Tamayo's poison and the Barber's razor are two more "kill outside
+  the vote" powers. Three in one village is a lot — drop one.
+Moderator tip: the Chupacabra's early kills look exactly like a successful village, so
+nobody suspects them until the wolves are gone and the deaths keep coming. That reveal
+is the best moment this card has — protect it by calling them every night from night 1,
+whether or not they act.
 
 **Old Man** — *dies on night (number of werewolves + 1).*
 Two failures. First, with 7 wolves in your deck that's night 8 and the game is long
@@ -237,13 +246,14 @@ traitors deep and the village almost can't lose.
 ## The four structural problems
 
 **1. Loner saturation.** You have 4 (Douma, Chachamaru, Giyu, Kaburamaru). Custom 2
-offers 4 more (Hoodlum, Nostradamus, and Chupacabra + Bloody Mary depending on how you
-rule them). Eight solo win conditions in one village and the likely outcome is a game
-that ends with **no faction able to claim victory** — the rulebook already flags this
-failure mode for the Hunter-Lover case on p. 10. **Cap Loners at 3 per game.**
+offers 4 more (Hoodlum, Nostradamus, Chupacabra, Lone Wolf) — and Custom 1 adds the
+Assassin and the Tanner on top. **Ten solo win conditions exist across your full pool.**
+Deal too many into one game and it ends with **no faction able to claim victory** — the
+rulebook already flags exactly this failure mode for the Hunter-Lover case on p. 10.
+**Cap Loners at 3 per game**, and note the Chupacabra now costs you one of those three.
 
 **2. Wolf-kill inflation.** Kokushibo (2 kills while the pack is whole) + Wolf Cub
-(2 kills once it isn't) + Muzan's infection + the Cursed's auto-conversion + Sasquatch
+(2 kills once it isn't) + Muzan's infection + the Diseased's auto-conversion + Sasquatch
 = the wolf team both eats double and *grows*. Pick **one** doubler and **one** converter.
 
 **3. Dead players with live powers.** Ghost (writes), Bloody Mary (kills), Sanami
@@ -282,7 +292,7 @@ Insert into The Pact's table (rulebook p. 24). **New entries in bold.**
 **Ghost writes their letter** → **Amulet is passed** → Medium → Town Crier → debate →
 vote → Devoted Servant check.
 
-*Kill Ghost during setup, before Cupid. Resolve conversions (Cursed, Sasquatch) silently
+*Kill Ghost during setup, before Cupid. Resolve conversions (Diseased, Sasquatch) silently
 at dawn.*
 
 ---
@@ -296,9 +306,8 @@ combination gives your dead players something to do. Start here.
 **Spicy (18–26).** The above, plus: Lycan **or** Wolf Man (not both), Doppelgänger,
 Leprechaun, Hoodlum, and Wolf Cub **in place of** Kokushibo.
 
-**Chaos (26+).** The above, plus: Sasquatch, Cursed (v2 — retire the Custom 1 card),
-the Amulet under the fixed rules, Bloody Mary capped at two kills, Chupacabra with a
-stated win condition. Expect a long night phase and at least one argument.
+**Chaos (26+).** The above, plus: Sasquatch, Diseased, the Amulet under the fixed
+rules, Bloody Mary capped at two kills, and the Chupacabra as a Loner. Expect a long night phase and at least one argument.
 
 **Bench in all three:** Insomniac, Old Man, Lone Wolf, Mayor.
 
@@ -308,9 +317,9 @@ stated win condition. Expect a long night phase and at least one argument.
 
 | Situation | Ruling |
 |---|---|
-| Witch heals the Cursed | Body saved, **conversion still happens** (p. 10 precedent) |
-| Defender protects the Cursed | Death prevented, **conversion still happens** (p. 15 precedent) |
-| Muzan bites the Cursed | Conversion happens; **Muzan's bite is not spent** |
+| Witch heals the Diseased | Body saved, **conversion still happens** (p. 10 precedent) |
+| Defender protects the Diseased | Death prevented, **conversion still happens** (p. 15 precedent) |
+| Muzan bites the Diseased | Conversion happens; **Muzan's bite is not spent** |
 | Seer views the Lycan | Show a **Werewolf** card |
 | Fox's group contains the Lycan | **Thumbs-up** |
 | Bear Tamer next to the Lycan | **Grunt** |
@@ -329,6 +338,9 @@ stated win condition. Expect a long night phase and at least one argument.
 | Tough Guy attacked | **Announced** at dawn, dies the following dawn |
 | Spellcaster silences the Ghost | Ghost may **still write** |
 | Spellcaster silences the Sheriff | Vote **still counts double** |
+| Chupacabra names a real wolf | **Clean kill** — no Defender, Elder or Witch save |
+| Chupacabra when all wolves are dead | Kills one player per night — this is their **win path** |
+| Chupacabra's victory | **Last player alive.** Never wins with the village |
 
 ---
 
