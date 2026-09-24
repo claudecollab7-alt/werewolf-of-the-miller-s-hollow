@@ -1,0 +1,24 @@
+Assasian -1	The Assassin places the Mark of the Assassin on any player, including himself, The Assassin wins if the player with the Mark of the Assassin is lynched
+Sentinel  0	When they wake up, places a shield on any player's card but your own. This prevents that card from being moved or viewed or converted
+Master Wolf -2	The Master wakes up with the other wolves, If at least 1 wolf points at the Master, the Master is saved from death
+Count -2 -2B	Wakes with the other wolves to eat then will wake again to place the Mark non-wolf player and that player may not do their night action
+Alpha wolf 2, 2B	Wakes at alongside other werewolves, and then again to swap the Center Werewolf cards with a non-werewolf player without looking at either card
+Mystic Wolf 2, 2C	The Mystic Wolf, when told to wake up, may look at another players card
+Minion 3	"When the Minion wakes up, all werewolfs are told to put their thumb out, so the Minion can see who they are.Even if the Minion is killed, as long as no Werewolves die, 
+the Minion wins along with the Werewolves.If there are no Werewolves present, but a Minion is, then the minion must ensure that anybody other than themselves die, 
+basically assuming the role of a Werewolf, as otherwise there would be no way for the village team to win"
+Thing 4B	The Thing wakes up and taps the shoulder of one player next to them
+Revealer 10	The Revealer, when they wake up, chooses one player's card to flip over face up. If it is not a Village card, then turn it back face down.
+Curator  11	"The Claw of the Werewolf: turns someone into a werewolf
+The Cudgel of the Tanner: turns someone into a Tanner
+The Brand of the Villager: turns someone into a villager
+The Mask of Muting: makes it so that someone cannot talk
+The Shroud of Shame, which makes someone face away from other players. Can talk and attempt to vote
+The Void of Nothingness, does nothing
+Bow of the Hunter: turns a player into a Hunter
+Sword of the Bodyguard: turns a player into a Bodyguard
+Cloak of the Prince: turns a player into a Prince"
+The Bodyguard -	The player he votes for cannot be killed. If the target received the most votes, the player with the two players with the second most votes is killed instead.
+The Prince -	Votes for the prince do not count. If the prince receives the most votes, the player who receives the second most votes dies.
+Cursed -	If devoured by wolves: next night wolves cannot kill.
+Tanner - 	The Tanner hates his job so much that he wants to die. The Tanner only wins if he dies.
