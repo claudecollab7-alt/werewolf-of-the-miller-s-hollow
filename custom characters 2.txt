@@ -1,20 +1,32 @@
-Ghost	Die the first night, then each day, write one letter clues as a message from the beyond (no names or initials).
-Insomniac	each night, learn at least one of your neighbors has woken up during the night.
-Lycan	You are a villager, but you appear falsely to be a werewolf to the Seers and PI.
-Wolf man	The exact opposite of a lycan.
-Mayor	Your vote counts twice when voting to day kill a player if you reveal yourself.
-Old Man	You will die on night X, where X is the number of werewolves in the game plus one.
+CUSTOM CHARACTERS 2 (updated) - 21 roles, deduplicated
+Bogeyman and Sasquatch were each listed twice in the source; The Amulet of Protection has been dropped.
+"Cursed" is renamed "Diseased" to clear the name collision with the Custom 1 card.
+
+--- VILLAGE (9) ---
+Ghost		Die the first night, then each day, write one letter clues as a message from the beyond (no names or initials).
+Insomniac	Each night, learn at least one of your neighbors has woken up during the night.
+Lycan		You are a villager, but you appear falsely to be a werewolf to the Seers and PI.
+Leprechaun	You can redirect werewolf attacks to players adjacent to the target(s), but you don't have to.
+Mayor		Your vote counts twice when voting to day kill a player if you reveal yourself.
+Old Man		You will die on night X, where X is the number of werewolves in the game plus one.
 Spellcaster	At night, indicate a player who must not use their voice the following day.
 Tough Guy	You survive an extra day if attacked by werewolves at night.
-The Amulet of Protection	Anyone who has this won't ever die. You must pass the Amulet to another player each day or else it is destroyed.
-Wolf Cub	If you die, the werewolves get two kills the following night.
-Dream Wolf	If a werewolf dies, you replace them (you're not allowed to wake up until a werewolf dies.)
-Cursed	You are a villager until attacked by werewolves, at which time you become a werewolf. (variation: You become a vampire when attacked by vampires.)
-Doppelgänger	Select a player the first night. If that player dies, you secretly take that role.
-Hoodlum	Indicate two players on the first night. If they die and you are alive at the end of the game, you win.
-Lone Wolf	You are a werewolf, but you only win if you are the last wolf team member alive.
-Sasquatch	You are a villager until a day ends without a day kill, in which case you become a werewolf.
-Leprechaun	You can redirect werewolf attacks to players adjacent to the target(s), but you don't have to.
 Bloody Mary	If you die, kill someone from the team that killed you each night.
-Chupacabra	Each night, select a player. If they are a werewolf, they die. If they aren't a werewolf, they don't die. If all the wolves are dead, kill a player each night.
+
+--- MIGHT CHANGE TO WOLF (3) ---
+Diseased	You are a villager until attacked by werewolves, at which time you become a werewolf. (variation: you become a vampire when attacked by vampires.)
+Doppelganger	Select a player the first night. If that player dies, you secretly take that role.
+Sasquatch	You are a villager until a day ends without a day kill, in which case you become a werewolf.
+
+--- WOLVES (5) ---
+Wolf Man	The exact opposite of a Lycan - a werewolf who appears to be a villager.
+Wolf Cub	If you die, the werewolves get two kills the following night.
+Dream Wolf	If a werewolf dies, you replace them (you're not allowed to wake up until a werewolf dies).
+Lone Wolf	You are a werewolf, but you only win if you are the last wolf team member alive.
+Fruit Brute	If you are the last wolf left alive, you lose your appetite and cannot feed, but you are trying to root out all the villagers.
+
+--- SOLO / LONERS (4) ---
+Bogeyman	If the wolves can't decide who to kill, you'll do it for them. You win if all the night-active players are dead.
+Chupacabra	Each night, select a player. If they are a werewolf, they die. If they aren't a werewolf, they don't die. If all the wolves are dead, kill a player each night. YOU WIN BY BEING THE LAST PLAYER ALIVE.
+Hoodlum		Indicate two players on the first night. If they die and you are alive at the end of the game, you win.
 Nostradamus	Predict the winning team on the 1st night. If that team wins AND you are alive at the end of the game, you get a solo win. For the rest of the game you are a villager.

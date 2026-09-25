@@ -55,6 +55,21 @@ does **not** stop the Sheriff's vote counting double. Call them late in the nigh
 the village can't time-triangulate who woke.
 (Note: this is the same effect as Custom 1's Curator "Mask of Muting" — don't run both.)
 
+**Fruit Brute** *(suggest renaming to "Famine")* — *as the last wolf alive, you lose your
+appetite and cannot feed; you must win by talking.*
+Quietly the best-designed card in the whole file, and the one I'd add first. It is a
+**self-nerfing wolf**: the pack's kill engine switches off the moment he is alone, so a
+village that is losing badly still has a road back. It is also the natural counterweight
+to Douma and the Outcast, who both *want* to be the last wolf — the Famine makes that
+ambition suicidal. Rulings:
+- "Cannot feed" means **no wolf kill at all** that night, not a reduced one. A Cub's
+  double kill is cancelled too.
+- He is only "the last wolf" when **every other wolf is dead** — a living Sleeper
+  (Dream Wolf) still counts, even though it hasn't woken. So the Sleeper keeps him fed.
+- **Important:** "cannot feed" is *not* "cannot decide." The Bogeyman does **not** get to
+  step in on a Famine night — see below.
+- The Wolf-Hound counts as a wolf for this only if they chose the wolf side.
+
 **Nostradamus** — *predict the winning team night 1; solo win if right and alive.*
 Harmless and additive. One ruling needed, because you have 4 Loners: publish the
 legal list of predictions up front — *Village / Werewolves / Piper / Angel /
@@ -94,6 +109,33 @@ natural way. **Play at most one of Lycan / Wolf Man per game** unless you're 20+
 players. Both at once makes Himejima net-negative for the village, and with Akaza
 (Wolf-Hound) and Nezuko (Wild Child) already muddying the water you have plenty of
 "is that a wolf?" in the deck.
+
+**Bogeyman** — *if the wolves can't agree, you kill for them. You win when every
+night-active player is dead.*
+This card does something none of your others do: **it deletes The Pact's deadlock safety
+valve.** Page 8 is explicit — *"If they can't agree as a group, too bad: nobody gets eaten
+tonight."* That no-kill night is one of the village's few free rides. The Bogeyman removes
+it permanently, and the knife changes hands to someone with a completely different agenda.
+Worth knowing before you deal it in.
+
+The win condition is the part that needs a ruling, because **as written it is nearly
+unreachable in your deck** — you own roughly eighteen night-active roles. Fix it at setup:
+- At setup, write down **which roles dealt into *this* game get called at night.** That
+  list, and only that list, is what the Bogeyman must clear.
+- Tell the Bogeyman **the count, not the identities.** They need to know whether the job
+  is four deep or eleven deep; they should not know who.
+- **Does the Bogeyman count themselves?** No — they are night-active but they are the one
+  left standing. Say this out loud at setup or it will be argued at 2am.
+- First-night-only roles (Cupid, Thief, Sisters, Brothers, Wild Child, Judge) — I'd
+  **exclude** them. They have no ongoing night presence, and including them makes the
+  card impossible. Your call, but decide before the deal.
+- **Call the Bogeyman every single night**, whether the wolves deadlocked or not.
+  Otherwise the nights they *are* called telegraph exactly what happened in the wolf
+  phase.
+- A Bogeyman kill is **not** a wolf kill: it doesn't feed the Diseased, doesn't trigger
+  the Knight's rusty sword, and the Elder does **not** spend a life on it.
+- A Famine night is not a deadlock — the wolves decided, they just can't act. **No
+  Bogeyman kill.**
 
 **Diseased** *(renamed from "Cursed")* — *villager who turns wolf when attacked.*
 The rename clears the collision with Custom 1's Cursed, so both can now sit in the deck
@@ -171,17 +213,6 @@ Schoolmarm can shut the Mayor's double vote off (I'd say yes).
 ---
 
 ### Red — rewrite before playing
-
-**The Amulet of Protection** — *"Anyone who has this won't ever die."*
-The most broken line in the file as written. It beats the vote, the wolves, Tamayo's
-poison, Sanami's shot, the Barber's razor — everything — and if a wolf gets hold of it
-you have an unkillable wolf. It also triggers Sasquatch every time a lynch fails.
-Playable version:
-- Protects against **night** deaths only. Not the village vote, not the Hunter's shot.
-- Must be passed to a **different living player** each day before the vote.
-- **Cannot be passed back** to the player who just held it.
-- If the holder is lynched, they die and **the Amulet burns with them.**
-That turns it into a roving Defender, which is fun and survivable.
 
 **Bloody Mary** — *"if you die, kill someone from the team that killed you each night."*
 As written this is the single most game-warping card here. If she is **lynched**, the
@@ -280,10 +311,11 @@ Insert into The Pact's table (rulebook p. 24). **New entries in bold.**
 5. Wild Child · Bear Tamer · Scandalmonger · Pyromaniac · Defender
 6. **All Werewolves** — including the Wolf-Hound if wolf-side, the White Wolf, Muzan,
    Kokushibo, **and the Dream Wolf (who stays asleep)**. Little Girl may spy.
-7. **Leprechaun** (shown the victim, may redirect)
-8. Baker · Cursed Wolf-Father · Big Bad Wolf
-9. **Chupacabra**
-10. Witch · Gypsy · **Spellcaster** · Piper → charmed players
+7. **Bogeyman** (called every night; kills only if the wolves deadlocked)
+8. **Leprechaun** (shown the victim, may redirect)
+9. Baker · Cursed Wolf-Father · Big Bad Wolf
+10. **Chupacabra**
+11. Witch · Gypsy · **Spellcaster** · Piper → charmed players
 
 **Each night** — same, minus the first-night-only calls, plus
 **Bloody Mary (if dead and triggered)** immediately after the Chupacabra.
@@ -306,10 +338,12 @@ combination gives your dead players something to do. Start here.
 **Spicy (18–26).** The above, plus: Lycan **or** Wolf Man (not both), Doppelgänger,
 Leprechaun, Hoodlum, and Wolf Cub **in place of** Kokushibo.
 
-**Chaos (26+).** The above, plus: Sasquatch, Diseased, the Amulet under the fixed
-rules, Bloody Mary capped at two kills, and the Chupacabra as a Loner. Expect a long night phase and at least one argument.
+**Chaos (26+).** The above, plus: Sasquatch, Diseased, **Bogeyman**, Bloody Mary
+capped at two kills, and the Chupacabra as a Loner. Expect a long night phase and at least one argument.
 
-**Bench in all three:** Insomniac, Old Man, Lone Wolf, Mayor.
+**Bench in all three:** Insomniac, Old Man, Mayor. *(Lone Wolf / Outcast comes off the
+bench the moment you add Famine — the two of them together are a genuinely good
+wolf-side subplot.)*
 
 ---
 
@@ -332,7 +366,6 @@ rules, Bloody Mary capped at two kills, and the Chupacabra as a Loner. Expect a 
 | Doppelgänger copies a Loner | **Inherits the solo win condition** (p. 13) |
 | Leprechaun vs. a doubled kill | **One redirect per night** |
 | Leprechaun redirects onto a wolf | **That wolf dies** |
-| Amulet vs. the village vote | **No protection** — holder dies, Amulet burns |
 | Bloody Mary lynched | Kills only someone who **voted for her**; max 2 total |
 | Sasquatch and Aoi's reveal day | Counts as a no-kill day — use the "second one" cap |
 | Tough Guy attacked | **Announced** at dawn, dies the following dawn |
@@ -341,6 +374,11 @@ rules, Bloody Mary capped at two kills, and the Chupacabra as a Loner. Expect a 
 | Chupacabra names a real wolf | **Clean kill** — no Defender, Elder or Witch save |
 | Chupacabra when all wolves are dead | Kills one player per night — this is their **win path** |
 | Chupacabra's victory | **Last player alive.** Never wins with the village |
+| Wolves deadlock with a Bogeyman in play | **Bogeyman chooses the victim** — the no-kill night is gone |
+| Famine is the last wolf | **No kill at all** that night — and **no** Bogeyman kill either |
+| Famine with a living Sleeper | Sleeper counts as a wolf, so **Famine still feeds** |
+| Bogeyman kill | Not a wolf kill: no Diseased turn, no Knight sword, Elder spends **no** life |
+| Bogeyman counts himself? | **No** — he is the survivor, not a target |
 
 ---
 
